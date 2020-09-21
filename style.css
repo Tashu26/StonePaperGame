@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80);
+    /* background: linear-gradient(to right, #5e149279, #d81435c5); */
+}
+
+header {
+    font-size: 35px;
+    top: 5%;
+    position: relative;
+    color: white;
+    font-weight: 700;
+}
+
+#scoreBoard {
+    position: relative;
+    height: 14%;
+    width: 13.8%;
+    background-color: rgba(8, 158, 228, 0.849);
+    border-radius: 50%;
+    border: 5px solid rgba(39, 36, 39, 0.5);
+    left: 43%;
+    top: 10%;
+    padding-top: 1%;
+    font-size: 23px;
+    color: bisque;
+}
+
+#display {
+    top: 13%;
+    position: relative;
+    font-size: 43px;
+    right: 1%;
+}
+
+#playarea {
+    position: relative;
+    top: 20%;
+    height: 30%;
+    width: 60%;
+    left: 20%;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font-size: 67px;
+    color: rgb(245, 238, 240);
+}
+
+img {
+    transition: ease-in 0.5s;
+}
+
+img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    /* border: 7px solid rgba(28, 224, 231, 0.637);
+    box-shadow: 0 0 10px #848486;
+    border-radius: 50%; */
+}
+
+#txt1 {
+    color: yellow;
+}
+
+.green-glow {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+    border-radius: 50%;
+}
+
+.red-glow {
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+    border-radius: 50%;
+}
+
+.blue-glow {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px blue;
+    border-radius: 50%;
+}
+b{
+    font-size: 24px;
+}
